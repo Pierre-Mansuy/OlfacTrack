@@ -89,20 +89,22 @@ The pipeline produces several output files:
 ## Example Visualizations
 
 ### Raw Trajectory Plot
-![Raw Trajectory](https://github.com/yourusername/olfactrack/raw/main/examples/raw_trajectory.png)
+![Raw Trajectory](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/102.mp4_raw_trajectory.png)
 
-### Proportion Plot
-![Proportion Plot](https://github.com/yourusername/olfactrack/raw/main/examples/proportion_plot.png)
+### Raw Trajectory Animation
+![Raw Trajectory](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/102.mp4_animation.gif)
 
 ### Heatmap
-![Heatmap](https://github.com/yourusername/olfactrack/raw/main/examples/heatmap.png)
+![Heatmap](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/102.mp4_heatmap.png)
+
+### Proportion Plot
+![Proportion Plot](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/102.mp4_proportion.png)
 
 ## Key Metrics
 
 The analysis calculates several behavioral metrics:
 
 - **Time metrics**: Duration spent in each Y-tube arm
-- **Proportion metrics**: Relative preference for odor vs. control
 - **Velocity metrics**: Movement speed in different regions
 - **Decision metrics**: First and last choices, change frequency
 - **Bout analysis**: Preference intensity and consistency
@@ -119,6 +121,14 @@ ID,Treatment,Cote_Odor,Dose
 ```
 
 The `Cote_Odor` column is essential for converting left/right metrics to odor/control metrics.
+
+## Example Outputs
+
+![Boxplot](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/key_metrics.png)
+
+![Correlation Plot](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/correlation.png)
+
+![Heatmap](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/heatmap.png)
 
 ## Customization
 
