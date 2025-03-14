@@ -2,8 +2,6 @@
 
 ## 2D Tracking Pipeline for Bumblebee Behavior in Olfactometer Videos
 
-![Olfactrack Banner](https://github.com/yourusername/olfactrack/raw/main/examples/banner.png)
-
 Olfactrack is a Python-based tracking pipeline designed for analyzing bumblebee behavior in Y-tube olfactometer experiments. The system enables precise tracking of bumblebee movement through the Y-tube, calculation of behavioral metrics, and generation of visualizations to understand olfactory preferences.
 
 ## Features
