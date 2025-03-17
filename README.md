@@ -109,6 +109,8 @@ The analysis calculates several behavioral metrics:
 - **Decision metrics**: First and last choices, change frequency
 - **Bout analysis**: Number of times the insect reaches the tip of an arm.
 
+Read the key metric file for full explanations. 
+
 ## Metadata Integration
 
 For complete analysis, create a metadata CSV file with experimental details such as:
@@ -148,7 +150,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you use this software in your research, please cite:
 
 ```
-Mansuy, P. (2025). Olfactrack: A pipeline for tracking bumblebee behavior in olfactometer experiments. 
+Mansuy, P. (2025). Olfactrack: 2D Tracking Pipeline for Insect Behavior in Olfactometer Videos. 
 GitHub repository, https://github.com/Pierre-Mansuy/Olfactrack
 ```
 
@@ -161,4 +163,4 @@ For questions, support, or collaboration:
 
 ---
 
-*Developed for behavioral ecologists studying pollinator olfactory preferences*
+*Developed for behavioral ecologists studying insect olfactory preferences*
