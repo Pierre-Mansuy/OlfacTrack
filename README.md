@@ -41,6 +41,17 @@ pip install opencv-python numpy pandas matplotlib seaborn jupyter
 
 3. Open the `olfactrack.ipynb` notebook
 
+### Video Preparation
+
+For optimal tracking performance, videos should be prepared as follows:
+
+Cropping: Videos should be cropped to focus only on the Y-tube area (recommended)
+Resolution: 720p resolution is often sufficient
+Frame Rate: 10 fps is adequate and helps reduce file size and processing time
+Compression: Reducing video quality/bitrate can significantly decrease processing time without affecting tracking accuracy
+
+See example files in the repository for reference. Preprocessing your videos according to these specifications will improve tracking efficiency and reduce computational requirements.
+
 ## Usage
 
 The tracking pipeline is implemented as a Jupyter Notebook with five sequential stages:
