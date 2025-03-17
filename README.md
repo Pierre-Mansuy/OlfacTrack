@@ -119,7 +119,7 @@ The analysis calculates several behavioral metrics:
 - **Decision metrics**: First and last choices, change frequency
 - **Bout analysis**: Number of times the insect reaches the tip of an arm.
 
-Read the key metric file for full explanations. 
+Read the metrics-explanation file for full explanations. 
 
 ## Metadata Integration
 
