@@ -1,13 +1,13 @@
 # Olfactrack
 
-## 2D Tracking Pipeline for Bumblebee Behavior in Olfactometer Videos
+## 2D Tracking Pipeline for Insect Behavior in Olfactometer Videos
 
-Olfactrack is a Python-based tracking pipeline designed for analyzing bumblebee behavior in Y-tube olfactometer experiments. The system enables precise tracking of bumblebee movement through the Y-tube, calculation of behavioral metrics, and generation of visualizations to understand olfactory preferences.
+Olfactrack is a Python-based tracking pipeline designed for analyzing insect behavior in Y-tube olfactometer experiments. The system enables precise tracking of insect movement through the Y-tube, calculation of behavioral metrics, and generation of visualizations to understand olfactory preferences.
 
 ## Features
 
 - **Precise ROI Selection**: Manually define the Y-tube structure with simple point-and-click interface
-- **Computer Vision Tracking**: Track bumblebee movement using background subtraction and contour detection
+- **Computer Vision Tracking**: Track insect movement using background subtraction and contour detection
 - **Comprehensive Analysis**: Calculate behavioral metrics such as time spent in each arm, preference indices, and movement patterns
 - **Rich Visualizations**: Generate heatmaps, trajectory plots, and animations to visualize behavior
 - **Parallel Processing**: Process multiple videos simultaneously for faster analysis
@@ -47,7 +47,7 @@ The tracking pipeline is implemented as a Jupyter Notebook with five sequential 
 
 1. **Import & Setup**: Configure libraries and environment
 2. **ROI Selection**: Define Y-tube structure by selecting key points
-3. **Tracking**: Process videos to track bumblebee movement
+3. **Tracking**: Process videos to track insect movement
 4. **Visualization**: Generate plots and animations of trajectories
 5. **Analysis**: Calculate behavioral metrics and statistics
 
@@ -84,7 +84,7 @@ The pipeline produces several output files:
 - **results.csv**: Summary file with tracking metrics for all videos
 - **summary_statistics.csv**: Statistical summaries grouped by experimental conditions
 - **Visualization images**: PNG files for trajectory plots, heatmaps, etc.
-- **Animations**: GIF files showing bumblebee movement (optional)
+- **Animations**: GIF files showing insect movement (optional)
 
 ## Example Visualizations
 
@@ -107,20 +107,20 @@ The analysis calculates several behavioral metrics:
 - **Time metrics**: Duration spent in each Y-tube arm
 - **Velocity metrics**: Movement speed in different regions
 - **Decision metrics**: First and last choices, change frequency
-- **Bout analysis**: Preference intensity and consistency
+- **Bout analysis**: Number of times the insect reaches the tip of an arm.
 
 ## Metadata Integration
 
 For complete analysis, create a metadata CSV file with experimental details such as:
 
 ```
-ID,Treatment,Cote_Odor,Dose
-138,Benzaldehyde,Left,0.1
-140,Control,Right,0
+ID,Treatment,Odor_Side,etc
+Insect_1,Treated,Left,...
+Insect_2,Control,Right,...
 ...
 ```
 
-The `Cote_Odor` column is essential for converting left/right metrics to odor/control metrics.
+The `Odor_Side` column is essential for converting left/right metrics to odor/control metrics. (must be "Left" or "Right")
 
 ## Example Outputs
 
