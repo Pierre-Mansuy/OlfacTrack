@@ -45,9 +45,9 @@ pip install opencv-python numpy pandas matplotlib seaborn jupyter
 
 For optimal tracking performance, videos should be prepared as follows:
 
-Cropping: Videos should be cropped to focus only on the Y-tube area (recommended)
-Resolution: 720p resolution is often sufficient
-Frame Rate: 10 fps is adequate and helps reduce file size and processing time
+- **Cropping**: Videos should be cropped to focus only on the Y-tube area (recommended)
+- **Resolution**: 720p resolution is often sufficient
+- **Frame Rate**: 10 fps is adequate and helps reduce file size and processing time
 
 See example files in the repository for reference. Preprocessing your videos according to these specifications will improve tracking efficiency and reduce computational requirements.
 
