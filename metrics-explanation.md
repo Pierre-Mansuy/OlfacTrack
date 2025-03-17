@@ -1,8 +1,8 @@
 # Olfactrack Metrics Guide
 
-This document explains the metrics calculated by Olfactrack to analyze bumblebee behavior in Y-tube olfactometer experiments.
+This document explains the metrics calculated by Olfactrack to analyze insect behavior in Y-tube olfactometer experiments.
 
-## Understanding Left/Right vs. Odor/Control
+## Left/Right vs. Odor/Control
 
 Olfactrack calculates metrics in two different reference frames:
 
@@ -14,7 +14,7 @@ Olfactrack calculates metrics in two different reference frames:
 
 ### Odor/Control (Biological Significance)
 - These metrics connect spatial behavior to experimental treatment
-- Requires `Cote_Odor` information in your metadata file
+- Requires `Odor_Side` information in your metadata file
 - Indicates actual olfactory preferences
 - Labeled with suffixes like `_odor` and `_control`
 
@@ -30,10 +30,10 @@ Proportion metrics range from 0 to 1 (or 0% to 100%) and indicate relative prefe
 |--------|-------------|----------------|
 | `prop_left` / `prop_right` | Proportion of time spent in left/right arm | Values >0.5 indicate preference for that side |
 | `prop_odor` / `prop_control` | Proportion of time spent in odor/control arm | `prop_odor` >0.5 indicates attraction to odor |
-| `prop_bout_left` / `prop_bout_right` | Proportion of bouts (visits) to left/right arm | Measures frequency of visits rather than duration |
+| `prop_bout_left` / `prop_bout_right` | Proportion of bouts (visits) to left/right arm tip | Measures frequency of visits rather than duration |
 | `prop_bout_odor` / `prop_bout_control` | Proportion of bouts to odor/control arm | Measures preference based on visit frequency |
-| `prop_proportion_left` / `prop_proportion_right` | Proportion based on summed proportion values | Weighted by position within the arm (stronger at tips) |
-| `prop_proportion_odor` / `prop_proportion_control` | Proportion based on summed proportion for odor/control | More sensitive measure of preference intensity |
+| `prop_proportion_left` / `prop_proportion_right` | Proportion based on summed time x position values for left/right | Time weighted by position within the arm (stronger at tips) |
+| `prop_proportion_odor` / `prop_proportion_control` | Proportion based on summed time x position values for odor/control | Time weighted by position within the arm (stronger at tips |
 
 ### Time Metrics
 
