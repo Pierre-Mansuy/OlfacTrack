@@ -1,8 +1,8 @@
-# Olfactrack
+# OlfacTrack
 
 ## 2D Tracking Pipeline for Insect Behavior in Olfactometer Videos
 
-Olfactrack is a Python-based tracking pipeline designed for analyzing insect behavior in Y-tube olfactometer experiments. The system enables precise tracking of insect movement through the Y-tube, calculation of behavioral metrics, and generation of visualizations to understand olfactory preferences.
+OlfacTrack is a Python-based tracking pipeline designed for analyzing insect behavior in Y-tube olfactometer experiments. The system enables precise tracking of insect movement through the Y-tube, calculation of behavioral metrics, and generation of visualizations to understand olfactory preferences.
 
 ## Features
 
@@ -30,7 +30,7 @@ pip install opencv-python numpy pandas matplotlib seaborn jupyter
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/olfactrack.git
+   git clone https://github.com/yourusername/olfacTrack.git
    cd olfactrack
    ```
 
@@ -99,16 +99,16 @@ The pipeline produces several output files:
 ## Example Visualizations
 
 ### Raw Trajectory Plot
-![Raw Trajectory](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/102.mp4_raw_trajectory.png)
+![Raw Trajectory](https://github.com/Pierre-Mansuy/OlfacTrack/blob/examples/102.mp4_raw_trajectory.png)
 
 ### Raw Trajectory Animation
-![Raw Trajectory](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/102.mp4_animation.gif)
+![Raw Trajectory](https://github.com/Pierre-Mansuy/OlfacTrack/blob/examples/102.mp4_animation.gif)
 
 ### Heatmap
-![Heatmap](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/102.mp4_heatmap.png)
+![Heatmap](https://github.com/Pierre-Mansuy/OlfacTrack/blob/examples/102.mp4_heatmap.png)
 
 ### Proportion Plot
-![Proportion Plot](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/102.mp4_proportion.png)
+![Proportion Plot](https://github.com/Pierre-Mansuy/OlfacTrack/blob/examples/102.mp4_proportion.png)
 
 ## Key Metrics
 
@@ -136,11 +136,11 @@ The `Odor_Side` column is essential for converting left/right metrics to odor/co
 
 ## Example Outputs
 
-![Boxplot](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/key_metrics.png)
+![Boxplot](https://github.com/Pierre-Mansuy/OlfacTrack/blob/examples/key_metrics.png)
 
-![Correlation Plot](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/correlation.png)
+![Correlation Plot](https://github.com/Pierre-Mansuy/OlfacTrack/blob/examples/correlation.png)
 
-![Heatmap](https://github.com/Pierre-Mansuy/Olfactrack/blob/examples/heatmap.png)
+![Heatmap](https://github.com/Pierre-Mansuy/OlfacTrack/blob/examples/heatmap.png)
 
 ## Customization
 
@@ -161,7 +161,7 @@ If you use this software in your research, please cite:
 
 ```
 Mansuy, P. (2025). Olfactrack: 2D Tracking Pipeline for Insect Behavior in Olfactometer Videos. 
-GitHub repository, https://github.com/Pierre-Mansuy/Olfactrack
+GitHub repository, https://github.com/Pierre-Mansuy/OlfacTrack
 ```
 
 ## Contact
@@ -169,7 +169,7 @@ GitHub repository, https://github.com/Pierre-Mansuy/Olfactrack
 For questions, support, or collaboration:
 
 - Email: bidje126jaag@gmail.com
-- GitHub Issues: https://github.com/Pierre-Mansuy/Olfactrack/issues
+- GitHub Issues: https://github.com/Pierre-Mansuy/OlfacTrack/issues
 
 ---
 
